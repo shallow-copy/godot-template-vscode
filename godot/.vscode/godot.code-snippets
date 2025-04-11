@@ -1,0 +1,12 @@
+{
+  "function define": {
+    "scope": "gdscript",
+    "description": "Define a lambda or method",
+    "prefix": "fn",
+    "body": [
+      "func ${1:method}(${2:args}) -> ${3:void}:",
+      "\t${4:pass}",
+      ""
+    ]
+  },
+}
